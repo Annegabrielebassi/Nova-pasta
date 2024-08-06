@@ -1,0 +1,52 @@
+*{
+    cursor:context-menu;
+    font-family: Tahoma;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #ed3434d8;
+    top: 0;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    background-color: #a70909d8;
+}
+
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    overflow-x: auto;
+    
+}
+
+.ulnav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 0 20%;
+    width: 190px;
+    cursor: pointer;
+}
+
+.ulnav p{
+    cursor: pointer;
+}
+
+.ulnav i{
+    margin-top: 14%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+header h1,h2{
+    text-align: center;
+    padding: 1% 0;
+}

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: rgb(112, 112, 112);
+}
+
+main {
+    text-align: center;
+}
+
+.img_ini {
+    width: 70%;
+    height: 40%;
+    top: 35%;
+    border-radius: 25px;
+}
+
+main h6 {
+    font-size: 16px;
+}
+
+#div-button {
+    text-align: center;
+
+}
+
+main button {
+    background-color: #ed3434d8;
+    margin: 2% 0;
+    cursor: pointer;
+}
+
+.images {
+    width: 30vw;
+    height: 35vh;
+}
+
+section{
+    margin: 2% 0;
+    background-color: rgb(78, 78, 78);
+    border: solid 2px;
+}
+
+.section-planos {
+    display: flex;
+    text-align: left;
+
+}
+
+.div-planos {
+    padding: 75px 4%;
+}
+
+.imagem-suplementos{
+    width: 20vw;
+    height: 50vh;
+}
+
+#texto-sobre{
+    font-size: 25px;
+    padding: 1% 9%;
+}

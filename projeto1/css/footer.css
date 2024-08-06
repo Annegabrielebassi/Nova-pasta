@@ -1,0 +1,46 @@
+footer{
+    background-color: rgb(56, 55, 55);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20%;
+    
+}
+
+.lista_contatos{
+    margin: 0;
+    list-style-type: none;
+    padding: 1% 2% ;
+}
+
+.lista_contatos p{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lista_contatos i{
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.lista_contatos a{
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lista_contatos li:hover{
+    color: #ed3434d8;
+}
+
+#footer_copyright{
+    color: white;
+    text-align: center;
+    background-color: gray;
+    height: 10%;
+    padding: 1.5% 0;
+}
