@@ -1,0 +1,25 @@
+:root{
+    --cor-heade-footer: #DEBCD0;
+    --cor-principal: black;
+    --cor-secundária: #EC65B6; 
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    background-color: var(--cor-heade-footer);
+}
+
+.button-footer{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 14pt;
+    margin: 5px 0;
+    transition: 0.2s;
+}
+
+.button-footer:hover{
+    color: var(--cor-secundária);
+}
