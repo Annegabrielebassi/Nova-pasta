@@ -1,54 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitas - Receitas com Suplementos Alimentares</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Receitas saudáveis utilizando suplementos para atingir seus objetivos de saúde">
+    <title>Receitas - Geração Fitness</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
     <header>
-        <h1>Receitas com Suplementos Alimentares</h1>
+        <div class="imagem-logo-header">
+            <div id="circulo-logo-header">
+                <img id="logo-header" src="img/logo.png" alt="Logo da academia">
+            </div>
+            <h1>Geração Fitness</h1>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="receitas.html">Receitas</a></li>
+            <ul class="ul-nav-header">
+                <li class="li-nav-header"><a href="index.html" class="ancoras-header"><button
+                            class="botao-header">Home</button></a></li>
+                <li class="li-nav-header"><a href="receitas.html" class="ancoras-header" id="escolhido"><button
+                            class="botao-header">Receitas</button></a></li>
+                <li class="li-nav-header"><a href="sobre.html" class="ancoras-header"><button
+                            class="botao-header">Sobre</button></a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="receita">
-            <h2>Shake Proteico de Morango</h2>
-            <img src="img/reecita1_png.jpg" alt="Shake Proteico de Morango">
-            <p>Ingredientes:</p>
-            <ul>
-                <li>1 scoop de whey protein sabor morango</li>
-                <li>1 xícara de leite desnatado</li>
-                <li>1/2 xícara de morangos frescos</li>
-                <li>1 colher de sopa de aveia</li>
-                <li>Gelo a gosto</li>
-            </ul>
-            <p>Modo de Preparo:</p>
-            <p>Bata todos os ingredientes no liquidificador até obter uma mistura homogênea. Sirva gelado.</p>
-        </section>
-        <section class="receita">
-            <h2>Bolo de Banana com Whey</h2>
-            <img src="receitas.html" alt="Bolo de Banana com Whey">
-            <p>Ingredientes:</p>
-            <ul>
-                <li>2 bananas maduras</li>
-                <li>3 ovos</li>
-                <li>1 scoop de whey protein sabor baunilha</li>
-                <li>1 xícara de farinha de aveia</li>
-                <li>1 colher de sopa de mel</li>
-                <li>1 colher de chá de fermento em pó</li>
-            </ul>
-            <p>Modo de Preparo:</p>
-            <p>Amasse as bananas e misture com os ovos e o mel. Adicione os ingredientes secos e misture bem. Coloque a massa em uma forma untada e leve ao forno preaquecido a 180°C por 25 minutos ou até dourar. Deixe esfriar antes de servir.</p>
+        <section class="conteudo-receitas">
+            <h2>Receitas Saudáveis Utilizando Suplementos</h2>
+            
+            <div class="receitas-grid">
+                <article class="receita">
+                    <img src="img/smoothieProteico.jpg" alt="Smoothie de Whey Protein">
+                    <h3>Smoothie de Whey Protein</h3>
+                    <ul>
+                        <li>1 scoop de Whey Protein</li>
+                        <li>200ml de leite desnatado ou vegetal</li>
+                        <li>1 banana</li>
+                        <li>1 colher de sopa de manteiga de amendoim</li>
+                        <li>Gelo a gosto</li>
+                    </ul>
+                    <p>Bata todos os ingredientes no liquidificador até obter uma mistura homogênea. Perfeito para o pós-treino!</p>
+                </article>
+
+                <article class="receita">
+                    <img src="img/pao-de-queijojpg.jpg" alt="Pão de Queijo com Creatina">
+                    <h3>Pão de Queijo com Creatina</h3>
+                    <ul>
+                        <li>1 xícara de polvilho azedo</li>
+                        <li>1 xícara de queijo parmesão ralado</li>
+                        <li>1 ovo</li>
+                        <li>2 colheres de sopa de creatina</li>
+                        <li>1/2 xícara de leite desnatado</li>
+                    </ul>
+                    <p>Misture todos os ingredientes até formar uma massa homogênea. Modele em pequenas bolinhas e asse em forno pré-aquecido a 180°C por 20 minutos.</p>
+                </article>
+
+                <article class="receita">
+                    <img src="img/salada-verde.jpg" alt="Salada Verde com Ômega 3">
+                    <h3>Salada Verde com Ômega 3</h3>
+                    <ul>
+                        <li>1 xícara de espinafre</li>
+                        <li>1/2 abacate em cubos</li>
+                        <li>1 colher de sopa de sementes de chia</li>
+                        <li>1 cápsula de óleo de peixe (Ômega 3)</li>
+                        <li>Suco de 1/2 limão</li>
+                    </ul>
+                    <p>Abra a cápsula de Ômega 3 e misture com o suco de limão. Regue a salada com o molho e sirva.</p>
+                </article>
+
+                <article class="receita">
+                    <img src="img/panqueca.jpg" alt="Panqueca Proteica com Whey e Creatina">
+                    <h3>Panqueca Proteica com Whey e Creatina</h3>
+                    <ul>
+                        <li>1 ovo</li>
+                        <li>1 scoop de Whey Protein</li>
+                        <li>1 colher de chá de creatina</li>
+                        <li>1 colher de sopa de farinha de aveia</li>
+                        <li>100ml de leite desnatado</li>
+                    </ul>
+                    <p>Misture todos os ingredientes até obter uma massa homogênea. Cozinhe em uma frigideira antiaderente por 2-3 minutos de cada lado.</p>
+                </article>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Receitas com Suplementos Alimentares</p>
+        <div>
+            <ul class="ul-footer" id="lista-contatos">
+                <li class="li-footer"><a href="https://www.instagram.com/annegabriele0/" class="ancoras-footer"
+                        target="_blank"><i class="bi bi-instagram" id="instagram-footer"> Instagram</i></a></li>
+                <li class="li-footer"><a href="https://github.com/Annegabrielebassi" target="_blank"
+                        class="ancoras-footer"><i class="bi bi-github" id="github-footer"> GitHub</i></a></li>
+            </ul>
+        </div>
+        <div id="footer_copyright">
+            &#169 2024 Todos os direitos reservados
+        </div>
     </footer>
+
 </body>
+
 </html>

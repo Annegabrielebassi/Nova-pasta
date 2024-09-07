@@ -6,81 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A pagina tem finalidade de oferecer a melhor academia de rede da cidade">
     <title>Geração Fitness</title>
-    <link rel="icon" href="img/icone.webp">
+    <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-    
 </head>
 
 <body>
     <header>
+        <div class="imagem-logo-header">
+            <div id="circulo-logo-header">
+                <img id="logo-header" src="img/logo.png" alt="Logo da academia">
+            </div>
+            <h1>Geração Fitness</h1>
+        </div>
         <nav>
-            <ul class="ulnav">
-                <li>
-                    <a href="qmSomos.html">
-                        <i class="bi bi-buildings"></i>
-                        <p>SOBRE</p>
-
-                    </a>
-                </li>
-
-                <li>
-                    <a href="receitas.html">
-                        <i class="bi bi-currency-dollar"></i>
-                        <p>RECEITAS</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="pag3.html">
-                        <i class="bi bi-cart-plus"></i>
-                        <p>COMPRAS</p>
-                    </a>
-                </li>
-
+            <ul class="ul-nav-header">
+                <li class="li-nav-header"><a href="index.html" class="ancoras-header" id="escolhido"><button
+                            class="botao-header">Home</button></a></li>
+                <li class="li-nav-header"><a href="receitas.html" class="ancoras-header"><button
+                            class="botao-header">Receitas</button></a></li>
+                <li class="li-nav-header"><a href="sobre.html" class="ancoras-header"><button
+                            class="botao-header">Sobre</button></a></li>
             </ul>
         </nav>
-        <h1></h1>
-        <h2> MELHORANDO SUA ALIMENTAÇÃO E SEU DIA  </h2>
     </header>
-    <main>
-        <img class="img_ini" src="img/ame-wheyprotein-receitas2.avif" alt="">
 
-        <h6>Aperte o botão para saber mais informaçãoes </h6>
-        <div id="div-button">
-            <a href="receitas.html"><button class="button-bottom"> RECEITAS </button></a>
-        </div>
+    <main>
+        <section class="conteudo-central">
+            <div id="saldacao">
+                <h2>Geração Fitness: nutrindo seu corpo e mente para alcançar seu máximo potencial.</h2>
+                <p>Junte-se à nossa comunidade. Aqui, oferecemos receitas e dicas de suplementação que ajudarão você a atingir seus objetivos de saúde e bem-estar.</p>
+            </div>
+            <h2>Aqui, sua nutrição é levada ao máximo.</h2>
+            <div class="div-tabela-nutricao">
+                <h3>Quais sãos os suplementos e quais são seus benefícios?</h3>
+                <table class="tabela-nutricao">
+                    <tr>
+                        <th>Suplemento</th>
+                        <th>Benefício</th>
+                        <th>Quantidade Diária</th>
+                    </tr>
+                    <tr>
+                        <td>Whey Protein</td>
+                        <td>Auxilia na construção muscular</td>
+                        <td>30g</td>
+                    </tr>
+                    <tr>
+                        <td>Creatina</td>
+                        <td>Aumento de força e energia</td>
+                        <td>5g</td>
+                    </tr>
+                    <tr>
+                        <td>Ômega 3</td>
+                        <td>Saúde cardiovascular</td>
+                        <td>1g</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div>
-            <ul class="lista_contatos">
-                <li>
-                    <p>
-                        <i class="bi bi-telephone"></i>(69)99311-8284
-                    </p>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/annegabriele0/" target="_blank">
-                        <i class="bi bi-instagram"></i>
-                        <p>Instagram</p>
-                    </a>
-                </li>
-                <li>
-
-
-                    <a href="https://github.com/Annegabrielebassi" target="_blank">
-                        <i class="bi bi-github"></i>
-                        <p>GitHub</p>
-                    </a>
-                </li>
+            <ul class="ul-footer" id="lista-contatos">
+                <li class="li-footer"><a href="https://www.instagram.com/annegabriele0/" class="ancoras-footer"
+                        target="_blank"><i class="bi bi-instagram" id="instagram-footer"> Instagram</i></a></li>
+                <li class="li-footer"><a href="https://github.com/Annegabrielebassi" target="_blank"
+                        class="ancoras-footer"><i class="bi bi-github" id="github-footer"> GitHub</i></a></li>
             </ul>
         </div>
         <div id="footer_copyright">
-            &#169
-            2024 Todos os direitos reservados
+            &#169 2024 Todos os direitos reservados
         </div>
     </footer>
+
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>
